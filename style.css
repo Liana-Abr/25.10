@@ -1,0 +1,147 @@
+body{
+    font-family: 'Nunito Sans', sans-serif;
+    position: relative;
+    width: 1440px;
+    height: 3084px;
+    background: #EBEBEB;
+    display: flex;
+    justify-content: center;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 1171px;
+    height: 80px;
+    left: 36%;
+    margin: 34px 0 0 0;
+    
+}
+.links{
+    font-family: 'Nunito Sans';
+    display: flex;
+    /* flex-direction: row;
+    align-items: flex-start; */
+    padding: 13px 20px;
+    gap: 20px;
+}
+.links a{
+    text-decoration: none;
+    color: #2B2B2B;
+    font-family: 'Nunito Sans', sans-serif;
+    
+}
+header button{
+    background-color: #423F3E;
+    padding: 11px 15px;
+    color: white;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.logo{
+    width: 80px;
+    height: 80px;
+    background-color: #c4c4c4;
+    /* margin: 20px; */
+}
+
+
+.banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 960px;
+    height: 356px;
+    left: 40%;
+    top: 200px;
+    text-align: center;
+}
+.banner h3{
+    font-size: 64px;
+    font-weight: 700;
+    margin: 0 0 10px 0;
+}
+
+.second-block{
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    width: 1230px;
+    height: 300px;
+    left: 31%;
+    top: 800px;
+    text-align: center;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-flow: row dense;
+    grid-auto-rows: 300px;
+}
+.left{
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-gap: 20px;
+
+}
+.left-content{
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-gap: 20px;
+}
+.left-bottom{
+    display: grid;
+}
+.span{
+    grid-row-end: span 1;
+}
+.span2{
+    grid-row-end: span 2;
+}
+.span3{
+    grid-row-end: span 3;
+}
+
+.right{
+    height: 630px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-row-start: span 2;
+    background-color: white;
+    font-size: 50px;
+}
+.left-content h3{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    padding: 10vh 0;
+    text-align: center; 
+}
+.item button{
+    background-color: transparent;
+    border: none;
+    font-size: 15px; 
+    font-weight: 700;
+    margin: 20px 0 0 0;
+}
+.item:nth-child(1){
+        grid-column: 1 / 3;
+}
+
+.item:nth-child(2){
+    grid-column: 3 / 5;
+}
+
+
+
+
+
+
+
